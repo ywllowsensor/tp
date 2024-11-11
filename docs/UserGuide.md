@@ -172,7 +172,7 @@ Each parameter is followed by examples that explains if the input is considered 
 
 * KnottyPlanners do not accept any empty parameters, hence, please add in a placeholder value that you choose to replace an empty input (e.g. `p/000` or `a/nil` ).
 
-* Ensure that an empty space ` ` comes before each prefix. This will prevent your inputs from being misinterpreted by KnottyPlanners.
+* Ensure that an empty space ` ` comes before each prefix. This will prevent your inputs from being misinterpreted by KnottyPlanners.<br>
   eg. `edit n/john a/woodlandsj/job` will not be interpreted correctly. Rectify this by typing in `edit n/john a/woodlands j/job`.
 
 * Tags in KnottyPlanners are used exclusively to tag person to wedding, hence both wedding name and tag names should be 2 person names separated with a & (e.g. `John Loh & Jean Tan`, `Stacy & Sam`).
@@ -591,6 +591,8 @@ There is no need to save manually.
 * If your changes to the data file makes its format invalid, KnottyPlanners will discard all data and start with an empty data file at the next run.  Hence, it is recommended to take a backup of the file before editing it.<br>
 
 * Furthermore, certain edits can cause the KnottyPlanners to behave in unexpected ways (e.g., if a value entered is outside the acceptable range). Therefore, edit the data file only if you are confident that you can update it correctly.
+
+</box>
 
 --------------------------------------------------------------------------------------------------------------------
 
